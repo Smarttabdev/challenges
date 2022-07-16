@@ -1,0 +1,101 @@
+/* .App {
+  text-align: center;
+} */
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid rgb(253, 208, 149);
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+  background-color: #453bdd;
+  padding: 10px;
+  color: white;
+}
+
+.header h4 {
+  margin: 10px;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.wrap {
+  padding: 30px;
+}
+
+.book-list {
+  background-color: rgb(253, 235, 218);
+  border-radius:5px;
+  padding: 10px 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.delete-icon img {
+  width: 15px;
+}
+
+.book-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.book-author {
+  color: #ff4700;
+  margin-top: 10px;
+}
+
+
+.delete-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.form {
+  margin-top: 40px;
+}
+
+.form-control {
+  padding: 10px;
+  font-size: 15px;
+  width: 93%;
+  border: 1px solid #cfcfcf;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.create {
+  background: #ff8100;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5;
+  border-radius: 27px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.text-error {
+  color: #ff4700;
+  margin: 0;
+  position: relative;
+  top: -20px;
+}
+
+.invalid::placeholder { /* Most modern browsers support this now. */
+  color:    #ff4700;
+}
+
+.invisible {
+  display: none;
+}
+
+.text-notify {
+  text-align: center;
+  color: #cfcfcf;
+}
